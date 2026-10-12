@@ -1,27 +1,18 @@
-import Header from './components/Header.jsx'
-import VendorCard from './components/VendorCard.jsx'
-import MenuItemCard from './components/MenuItemCard.jsx'
-import Footer from './components/Footer.jsx'
+function Header() {
+  const cartCount = 0 // becomes state in Part C
  
-function App() {
   return (
-    <>
-      <Header />
-      <main className="container">
-        <section>
-          <h2 className="section-title">Today's vendors</h2>
-          <VendorCard />
-        </section>
-        <section>
-          <h2 className="section-title">Popular items</h2>
-          <div className="grid">
-            <MenuItemCard />
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </>
+    <header className="header">
+      <h1 className="logo">CampusEats</h1>
+      <nav className="nav">
+        <a href="#">Vendors</a>
+        <a href="#">My Orders</a>
+        <a href="#" className="cart">
+          Cart <span className="badge">{cartCount}</span>
+        </a>
+      </nav>
+    </header>
   )
 }
  
-export default App
+export default Header
