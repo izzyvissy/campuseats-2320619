@@ -19,7 +19,7 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - One thing the AI got wrong and how I fixed it: None
 
 ## Week 3
-- Tool(s): 
-- What I asked for: 
-- What I kept, changed or rejected, and why: 
-- One thing the AI got wrong and how I fixed it: 
+- Tool(s): ChatGPT
+- What I asked for: Where should I put .css file? /src/App.css or inside /src/components file?
+- What I kept, changed or rejected, and why: add another file /src/components/style separate .css file and .jsx file
+- One thing the AI got wrong and how I fixed it: thinking it was.. 'import "./Header.css";' so imedietly change into 'import "./styles/Header.css";' 

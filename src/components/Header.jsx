@@ -1,3 +1,5 @@
+import './styles/Header.css'
+
 function Header({ cartCount }) { 
   return (
     <header className="header">
