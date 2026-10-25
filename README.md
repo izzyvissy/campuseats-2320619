@@ -1,16 +1,64 @@
-# React + Vite
+# CampusEats
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A campus food-ordering web app built with React and Vite for **BICS 3301 Cross-Platform Software Development**, IIUM.
 
-Currently, two official plugins are available:
+- **Name:** [Your full name]
+- **Matric no:** [Your matric number]
+- **Repository:** campuseats-[matric no]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **Week 2:** vendor cards and menus rendered from data with props and `.map()`. Choosing a vendor switches the menu, and Add to cart updates the header badge.
+- **Week 3:** menus fetched from a mock API with loading and error states and a Try again button. The cart has quantities (+ / −), Remove, and a derived total. A checkout form with controlled inputs and validation (name, mahallah, pickup time) leads to an "Order placed" view.
+- **Personal feature (digit [last digit of matric no]):** [feature name and what it does so far]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- React (function components and hooks: `useState`, `useEffect`)
+- Vite
+- Plain CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run it locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173.
+
+## Project structure
+
+```text
+public/api/vendors.json   mock API: all vendors and their menus
+src/
+  App.jsx                 fetches vendors, holds cart and view state
+  index.css               global and shared styles
+  components/
+    Header.jsx            nav and cart badge
+    VendorCard.jsx        one selectable vendor
+    MenuList.jsx          list of menu items (with empty state)
+    MenuItemCard.jsx      one menu item with Add to cart
+    CartPage.jsx          cart list, total and checkout form
+    CartItem.jsx          one cart row
+    CheckoutForm.jsx      controlled form with validation
+    Status.jsx            Loading and ErrorMessage
+    Footer.jsx
+```
+
+## Data credits
+
+Vendor 1 (**Roti Canai Ahmad**) is my own shop. The other vendors' data was shared by classmates, and only the data was shared. The components, cart and checkout code are my own.
+
+- Vendors 2 (**Mamak Mia**) from [Norsabreena binti Norshahidy, 2417740 ]
+- Vendors 3
+
+## AI usage
+
+I used AI tools while building this project. My log is in [AI_USAGE.md](AI_USAGE.md).
+
+## Git tags
+
+- `week-1`
+- `week-2`
+- `week-3`
