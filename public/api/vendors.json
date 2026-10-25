@@ -1,3 +1,4 @@
+[
 {
     "id": "2320619-roticanai-ahmad",
     "name": "Roti canai Ahmad",
@@ -5,12 +6,206 @@
     "openHours": "7:00 AM - 10:00 PM",
     "isOpen": true,
     "menu": [
-        {"id": "2320619-m1", "name":"Roti Kosong", "price": 1.2, "category": "Roti Canai", "popular": true},
-        {"id": "2320619-m2", "name":"Roti Telur", "price": 1.5, "category": "Roti Canai", "popular": true},
-        {"id": "2320619-m3", "name":"Roti Bawang", "price": 1.8, "category": "Roti Canai", "popular": false},
-        {"id": "2320619-m4", "name":"Roti Planta", "price": 2.0, "category": "Roti Canai", "popular": false},
-        {"id":"2320619-m5", "name":"Naan Cheese", "price": 2.5, "category": "Naan Tandoori", "popular": true},
-        {"id":"2320619-m6", "name":"Naan Garlic", "price": 2.0, "category": "Naan Tandoori", "popular": false},
-        {"id":"2320619-m7", "name":"Naan Butter", "price": 1.8, "category": "Naan Tandoori", "popular": false}
+        {
+            "id": "2320619-m1", 
+            "name":"Roti Kosong", 
+            "price": 1.2, 
+            "category": "Roti Canai", 
+            "popular": true,
+            "available": true
+        },
+        {
+            "id": "2320619-m2", 
+            "name":"Roti Telur", 
+            "price": 1.5, 
+            "category": "Roti Canai", 
+            "popular": true,
+            "available": true
+        },
+        {
+            "id": "2320619-m3", 
+            "name":"Roti Bawang", 
+            "price": 1.8, 
+            "category": "Roti Canai", 
+            "popular": false,
+            "available": true
+        },
+        {
+            "id": "2320619-m4", 
+            "name":"Roti Planta", 
+            "price": 2.0, 
+            "category": "Roti Canai", 
+            "popular": false,
+            "available": true
+        },
+        {
+            "id":"2320619-m5", 
+            "name":"Naan Cheese", 
+            "price": 2.5, 
+            "category": "Naan Tandoori", 
+            "popular": true,
+            "available": true
+        },
+        {
+            "id":"2320619-m6", 
+            "name":"Naan Garlic", 
+            "price": 2.0, 
+            "category": "Naan Tandoori", 
+            "popular": false,
+            "available": true
+        },
+        {
+            "id":"2320619-m7", 
+            "name":"Naan Butter", 
+            "price": 1.8, 
+            "category": "Naan Tandoori", 
+            "popular": false,
+            "available": true
+        }
     ]
-}
+},
+{
+    "id": "2417740-mamak-mia",
+    "name": "Mamak Mia",
+    "location": "Mahallah Asiah, Block CF",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2417740-m1",
+        "name": "Roti Canai",
+        "description": "Fried flatbread with curry sauce",
+        "price": 1.5,
+        "category": "Bread",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2417740-m2",
+        "name": "Teh Tarik",
+        "description": "Hot milk tea with sugar",
+        "price": 2.0,
+        "category": "Beverage",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2417740-m3",
+        "name": "Mee Goreng Mamak",
+        "description": "Stir-fried noodles with vegetables and meat",
+        "price": 2.5,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m4",
+        "name": "Cheese Naan",
+        "description": "Grilled flatbread with cheese and herbs",
+        "price": 2.0,
+        "category": "Bread",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2417740-m5",
+        "name": "Kopi O",
+        "description": "Hot coffee",
+        "price": 3.0,
+        "category": "Beverage",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m6",
+        "name": "Rojak Mee",
+        "description": "Mixed noodle with peanuts sauce",
+        "price": 2.5,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m7",
+        "name": "Nasi Goreng Kampung",
+        "description": "Stir-fried rice with kangkung and anchovies",
+        "price": 2.5,
+        "category": "Rice",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2417740-m8",
+        "name": "Cendol",
+        "description": "Iced dessert with coconut milk, palm sugar, and green rice flour jelly",
+        "price": 2.0,
+        "category": "Dessert",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2417740-m9",
+        "name": "Nasi Lemak",
+        "description": "Coconut milk rice with sambal, anchovies, peanuts, and boiled egg",
+        "price": 3.0,
+        "category": "Rice",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m10",
+        "name": "ABC (Ais Batu Campur)",
+        "description": "Shaved ice with sweet corn, red beans, grass jelly, and syrup",
+        "price": 2.0,
+        "category": "Dessert",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m11",
+        "name": "Maggi Goreng",
+        "description": "Stir-fried instant noodles with egg and vegetables",
+        "price": 2.5,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m12",
+        "name": "Roti Telur",
+        "description": "Fried flatbread with egg inside, served with curry sauce",
+        "price": 2.0,
+        "category": "Bread",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m13",
+        "name": "Milo Ais",
+        "description": "Iced chocolate malt drink",
+        "price": 2.5,
+        "category": "Beverage",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m14",
+        "name": "Nasi Ayam Goreng",
+        "description": "Steamed rice with fried chicken, cucumber, and chili sauce",
+        "price": 4.0,
+        "category": "Rice",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2417740-m15",
+        "name": "Telur Mata",
+        "description": "Sunny-side-up fried egg, a side dish for any meal",
+        "price": 1.0,
+        "category": "Side Dish",
+        "popular": false,
+        "available": true
+      }
+    ]
+  }
+]
