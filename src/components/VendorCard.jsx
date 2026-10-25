@@ -1,3 +1,5 @@
+import './styles/VendorCard.css'
+
 function VendorCard({ vendor, isSelected, onSelect }) {
   return (
     <button

@@ -1,0 +1,25 @@
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.menu-card .thumb { margin-bottom: 8px; }
+.menu-card h3 { margin: 4px 0 2px; font-size: 1.05rem; color: var(--text); }
+.menu-card .muted { margin-bottom: 8px; font-size: 0.8rem; }
+
+.tag {
+  align-self: flex-start;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: var(--green-light);
+  color: var(--green);
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.price {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}

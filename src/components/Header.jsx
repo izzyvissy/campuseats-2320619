@@ -1,6 +1,6 @@
 import './styles/Header.css'
 
-function Header({ cartCount }) { 
+function Header({ cartCount }) {
   return (
     <header className="header">
       <h1 className="logo">CampusEats</h1>
@@ -14,5 +14,5 @@ function Header({ cartCount }) {
     </header>
   )
 }
- 
+
 export default Header

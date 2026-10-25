@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import vendors from './data/vendors.js'
+import vendors from './components/data/vendors.js'
 import Header from './components/Header.jsx'
 import VendorCard from './components/VendorCard.jsx'
 import MenuList from './components/MenuList.jsx'
@@ -9,9 +9,9 @@ function App() {
   const [selectedVendorId, setSelectedVendorId] = useState(vendors[0].id)
   const selectedVendor = vendors.find((vendor) => vendor.id === selectedVendorId)
   const [cart, setCart] = useState([])
-
+ 
   function handleAddToCart(item) {
-    setCart((prevCart) => [...prevCart, item])
+    setCart((prevCart) => [...prevCart, item])   // a NEW array, never cart.push()
   }
  
   return (

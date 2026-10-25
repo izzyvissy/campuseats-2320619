@@ -1,3 +1,4 @@
+import './styles/MenuList.css'
 import MenuItemCard from './MenuItemCard.jsx'
  
 function MenuList({ items, onAdd }) {
