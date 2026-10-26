@@ -59,6 +59,5 @@ I used AI tools while building this project. My log is in [AI_USAGE.md](AI_USAGE
 
 ## Git tags
 
-- `week-1`
 - `week-2`
 - `week-3`

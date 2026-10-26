@@ -207,5 +207,158 @@
         "available": true
       }
     ]
-  }
+},
+  {
+    "id": "2320619-dapur-bilal",
+    "name": "Dapur Seri Bilal",
+    "location": "Mahallah Bilal, Block A",
+    "openHours": "8:00 am - 9:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2320619-b1",
+        "name": "Nasi Kerabu",
+        "description": "Blue herbal rice with fish, salted egg and fresh herbs",
+        "price": 6.5,
+        "category": "Rice",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-b2",
+        "name": "Nasi Ayam Percik",
+        "description": "Grilled chicken in coconut gravy with rice",
+        "price": 7.0,
+        "category": "Rice",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-b3",
+        "name": "Laksa Kelantan",
+        "description": "Thick fish gravy with rice noodles and bean sprouts",
+        "price": 5.5,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2320619-b4",
+        "name": "Mee Rebus",
+        "description": "Yellow noodles in sweet potato gravy with egg",
+        "price": 5.0,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2320619-b5",
+        "name": "Keropok Lekor",
+        "description": "Fried fish sausage served with chili dip",
+        "price": 3.5,
+        "category": "Snacks",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-b6",
+        "name": "Cucur Udang",
+        "description": "Crispy prawn fritters",
+        "price": 3.0,
+        "category": "Snacks",
+        "popular": false,
+        "available": false
+      },
+      {
+        "id": "2320619-b7",
+        "name": "Air Kelapa",
+        "description": "Fresh coconut water",
+        "price": 3.0,
+        "category": "Drinks",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2320619-b8",
+        "name": "Teh Ais Limau",
+        "description": "Iced tea with lime",
+        "price": 2.0,
+        "category": "Drinks",
+        "popular": false,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "2320619-supper-faruq",
+    "name": "Supper Corner Faruq",
+    "location": "Mahallah Faruq, Block B",
+    "openHours": "6:00 pm - 1:00 am",
+    "isOpen": false,
+    "menu": [
+      {
+        "id": "2320619-f1",
+        "name": "Burger Ayam Special",
+        "description": "Grilled chicken patty with egg, cheese and sauce",
+        "price": 5.5,
+        "category": "Burgers",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-f2",
+        "name": "Burger Daging",
+        "description": "Beef patty with onions and black pepper sauce",
+        "price": 6.0,
+        "category": "Burgers",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2320619-f3",
+        "name": "Nasi Goreng Pattaya",
+        "description": "Fried rice wrapped in a thin omelette",
+        "price": 6.0,
+        "category": "Rice",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-f4",
+        "name": "Maggi Kari",
+        "description": "Instant noodles in curry soup with egg",
+        "price": 4.5,
+        "category": "Noodles",
+        "popular": false,
+        "available": true
+      },
+      {
+        "id": "2320619-f5",
+        "name": "Kentang Goreng",
+        "description": "French fries with cheese or chili sauce",
+        "price": 3.5,
+        "category": "Sides",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-f6",
+        "name": "Milo Dinosaur",
+        "description": "Iced Milo topped with extra Milo powder",
+        "price": 4.0,
+        "category": "Drinks",
+        "popular": true,
+        "available": true
+      },
+      {
+        "id": "2320619-f7",
+        "name": "Teh O Limau Ais",
+        "description": "Iced lemon tea without milk",
+        "price": 2.5,
+        "category": "Drinks",
+        "popular": false,
+        "available": true
+      }
+    ]
+}
 ]
