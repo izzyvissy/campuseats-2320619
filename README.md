@@ -2,9 +2,9 @@
 
 A campus food-ordering web app built with React and Vite for **BICS 3301 Cross-Platform Software Development**, IIUM.
 
-- **Name:** [Your full name]
-- **Matric no:** [Your matric number]
-- **Repository:** campuseats-[matric no]
+- **Name:** [MUHAMMAD AMIRUL IZZAT BIN MAHIDZAR]
+- **Matric no:** [2320619]
+- **Repository:** campuseats-2320619
 
 ## Features
 
