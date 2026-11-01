@@ -1,12 +1,9 @@
-import './styles/VendorCard.css'
+import './styles/VendorCard.css'  
+import { Link } from 'react-router'
 
-function VendorCard({ vendor, isSelected, onSelect }) {
+function VendorCard({ vendor }) {
   return (
-    <button
-      type="button"
-      className={isSelected ? 'card vendor-card selected' : 'card vendor-card'}
-      onClick={() => onSelect(vendor.id)}
-    >
+    <Link to={`/vendor/${vendor.id}`} className="card vendor-card">
       <div className="thumb" aria-hidden="true">{vendor.name.charAt(0)}</div>
       <div>
         <h3>{vendor.name}</h3>
@@ -16,8 +13,8 @@ function VendorCard({ vendor, isSelected, onSelect }) {
           {vendor.isOpen ? 'Open now' : 'Closed'}
         </span>
       </div>
-    </button>
+    </Link>
   )
 }
- 
+
 export default VendorCard
