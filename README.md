@@ -2,15 +2,15 @@
 
 A campus food-ordering web app built with React and Vite for **BICS 3301 Cross-Platform Software Development**, IIUM.
 
-- **Name:** [Your full name]
-- **Matric no:** [Your matric number]
-- **Repository:** campuseats-[matric no]
+- **Name:** [MUHAMMAD AMIRUL IZZAT BIN MAHIDZAR]
+- **Matric no:** [2320619]
+- **Repository:** campuseats-2320619
 
 ## Features
 
 - **Week 2:** vendor cards and menus rendered from data with props and `.map()`. Choosing a vendor switches the menu, and Add to cart updates the header badge.
 - **Week 3:** menus fetched from a mock API with loading and error states and a Try again button. The cart has quantities (+ / −), Remove, and a derived total. A checkout form with controlled inputs and validation (name, mahallah, pickup time) leads to an "Order placed" view.
-- **Personal feature (digit [last digit of matric no]):** [feature name and what it does so far]
+- **Personal feature:**
 
 ## Tech stack
 
