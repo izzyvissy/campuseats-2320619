@@ -50,3 +50,19 @@ import "./styles/Header.css";
   }, [reloadKey])                        // <-- delete this line (line 45, the one in the error)
   ```
   after delete one of those, it should be read and the page is working.
+
+## Week 4
+- Tool(s): Claude
+- What I asked for: Help understanding the Week 4 requirements and
+  writing the custom hooks (useLocalStorage, useVendors, useCart), the
+  CartProvider context, the pages and the route table in App.jsx. I also
+  asked for help debugging why the wrong page showed up, and for help
+  with a git push that was rejected.
+- What I kept, changed or rejected, and why: I kept the structure from the
+  lab sheet (hooks, context, Layout with Outlet, pages), and I read through
+  each file to understand how it works. It also forgot to import .css file which I able detect the problle
+- One thing the AI got wrong and how I fixed it: Claude told me to tag
+  react-done right after Week 3, but the Week 4 sheet says the React
+  milestone is submitted after Week 4. I fixed it by checking the sheet.
+  Separately, I pasted the wrong code into Header.jsx and VendorPage.jsx,
+  and found it by checking each file against its name. Other than that, I tried click Vendors it got all empty which i found that it got URL wrong.
